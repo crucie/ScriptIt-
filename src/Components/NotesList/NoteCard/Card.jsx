@@ -19,11 +19,11 @@ export const Card = ({ title, notecontent }) => {
           </div>
         </div>
         <div className="border-t  border-gray-950 mb-2 w-3/4"> </div>
-        <div className="text-[18px] overflow-hidden text-ellipsis whitespace-normal flex-grow mb-2">
+        <div className=" text-[#000] text-[18px] overflow-hidden text-ellipsis whitespace-normal flex-grow mb-2">
           {notecontent}
         </div>
         <div className="flex flex-row items-center justify-between mt-auto">
-          <div className="text-[16px]">
+          <div className="text-[16px] text-[#000]">
             {/* {formattedDate} */}
             12/08/2022
           </div>
